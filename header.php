@@ -1,0 +1,40 @@
+<?php 
+  include "config.php";
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Php multi lang</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-brand">
+    <a href="index.php">
+      <h1>Brand</h1>
+    </a>
+  </div>
+  <nav>
+    <ul>
+      <li>
+        <a href="index.php">
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="about.php">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="contact.php">
+          Contact
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
