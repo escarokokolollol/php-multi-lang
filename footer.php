@@ -1,10 +1,20 @@
 <footer>
   <h4>footer</h4>
     <select name="lang" id="select-lang">
-      <option value="en" value="en">
+
+      <option <?php 
+        if($_SESSION['lang'] == "en"){
+          echo "selected";
+        }
+      ?> value="en">
         English
       </option>
-      <option selected="selected" value="sv" value="sv">
+      <option <?php 
+        if($_SESSION['lang'] == "sv"){
+          echo "selected";
+        }
+      ?>
+        value="sv">
         Svenska
       </option>
     </select>
